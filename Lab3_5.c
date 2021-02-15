@@ -17,8 +17,8 @@ int main(){
         a[j] = b;
         j++;
     }
-    if(j==3)
-    {
+    
+    
         if(a[0]==a[1]||a[0]==a[2]||a[1]==a[2])
         {
             printf("%d is not a Lucky Number.",m);
@@ -27,7 +27,6 @@ int main(){
         {
             printf("%d is a Lucky Number.",m);
         }
-    }
     return 0;
 
 }

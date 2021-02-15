@@ -36,7 +36,7 @@ int main()
             i = j+1;
         }
     }
-    printf("%d %d",i,j);
+    printf("%d %d",i,n);
     
 }
 

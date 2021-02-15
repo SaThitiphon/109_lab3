@@ -17,6 +17,5 @@ main ()
       x++;
     }
     }
-  printf ("0");
   return 0;
 }

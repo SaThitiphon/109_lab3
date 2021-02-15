@@ -19,12 +19,9 @@ int main(){
     }
     if(j==3)
     {
-        for(k=0;k<3;k++)
+        if(a[0]==a[1]||a[0]==a[2]||a[1]==a[2])
         {
-            if(a[k]==a[k+1])
-            {
-                printf("%d is not a Lucky Number.",m);
-            }
+            printf("%d is not a Lucky Number.",m);
         }
         if(a[0]!=a[1]&&a[0]!=a[2]&&a[1]!=a[2])
         {

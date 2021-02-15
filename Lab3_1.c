@@ -1,26 +1,26 @@
 #include <stdio.h>
 int main()
 {
-    int a[5],b[5],c[5],d[5],e[5],i,s[5],n,j;
-    for(i=0;i<5;i++)
+    int a[4],b[4],c[4],d[4],e[4],i,s[5],n,j;
+    for(i=0;i<4;i++)
     {
-        scanf("%d",a[i]);
+        scanf("%d",&a[i]);
     }
-    for(i=0;i<5;i++)
+    for(i=0;i<4;i++)
     {
-        scanf("%d",b[i]);
+        scanf("%d",&b[i]);
     }
-    for(i=0;i<5;i++)
+    for(i=0;i<4;i++)
     {
-        scanf("%d",c[i]);
+        scanf("%d",&c[i]);
     }
-    for(i=0;i<5;i++)
+    for(i=0;i<4;i++)
     {
-        scanf("%d",d[i]);
+        scanf("%d",&d[i]);
     }
-    for(i=0;i<5;i++)
+    for(i=0;i<4;i++)
     {
-        scanf("%d",e[i]);
+        scanf("%d",&e[i]);
     }
     s[0] = a[0]+a[1]+a[2]+a[3]+a[4];
     s[1] = b[0]+b[1]+b[2]+b[3]+b[4];
@@ -39,3 +39,4 @@ int main()
     printf("%d %d",i,j);
     
 }
+
